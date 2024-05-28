@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const corsOptions = {
-  origin: "https://earnest-selkie-e8a4e4.netlify.app/",
+  origin: "https://earnest-selkie-e8a4e4.netlify.app",
   methods: "GET, POST, DELETE",
   credentials: true,
 };
